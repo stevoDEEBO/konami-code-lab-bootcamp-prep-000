@@ -5,7 +5,7 @@ function init() {
 let i = 0;
 
 document.body.addEventListener('keydown', function(e) {
-  var keys = parseInt(e.detail || e.which);
+  var keys = parseInt(e.detail || e.location || e.which);
 
   console.log(e.detail)
   console.log(e.location)
@@ -18,10 +18,14 @@ document.body.addEventListener('keydown', function(e) {
       alert("WOO HOO! You did it!");
 
       i = 0;
+      keys = ''
     }
+  }
 
   else {
     i = 0;
+    keys = ''
   }
 });
 }
+//init();
