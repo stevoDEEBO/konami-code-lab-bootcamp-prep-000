@@ -18,14 +18,10 @@ document.body.addEventListener('keydown', function(e) {
       alert("WOO HOO! You did it!");
 
       i = 0;
-      keys = ''
     }
-  }
 
   else {
     i = 0;
-    keys = ''
   }
 });
 }
-init();
