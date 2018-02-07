@@ -5,7 +5,7 @@ function init() {
 let i = 0
 
 var body = document.querySelector('body')
-const keys = ''
+var keys = ''
 body.addEventListener('keydown', function(e) {
   keys = parseInt(e.detail || e.which)
 
