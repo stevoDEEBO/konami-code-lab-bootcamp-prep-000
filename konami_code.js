@@ -7,10 +7,10 @@ let i = 0
 var body = document.querySelector('body')
 const keys = ''
 body.addEventListener('keydown', function(e) {
-  keys = parseInt(e.detail || e.location || e.which)
+  keys = parseInt(e.detail || e.which)
 
   console.log(e.detail)
-  console.log(e.location)
+  //console.log(e.location)
   console.log(e.which)
 
   if (keys === code[i]) {
