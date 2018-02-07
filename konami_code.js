@@ -4,9 +4,9 @@ function init() {
   // Write your JavaScript code inside the init() function
 let i = 0;
 
-//var body = document.querySelector('body')
+var body = document.querySelector('body')
 //var keys = ''
-document.body.addEventListener('keydown', function(e) {
+body.addEventListener('keydown', function(e) {
   var keys = parseInt(e.detail || e.which);
 
   //console.log(e.detail)
