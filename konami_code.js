@@ -12,20 +12,20 @@ document.body.addEventListener('keydown', function(e) {
   console.log(e.which)
 
   if (keys === code[i]) {
-    i ++;
+    i++;
 
     if (i === code.length) {
       alert("WOO HOO! You did it!");
 
       i = 0;
-      //keys = ''
+      keys = ''
     }
   }
 
   else {
     i = 0;
-    //keys = ''
+    keys = ''
   }
 });
 }
-//init();
+init();
