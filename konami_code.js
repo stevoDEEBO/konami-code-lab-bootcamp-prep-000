@@ -14,7 +14,7 @@ document.body.addEventListener('keydown', function(e) {
   //console.log(e.which)
 
   if (keys === code[i]) {
-    index ++;
+    i ++;
 
     if (i === code.length) {
       alert("WOO HOO! You did it!");
