@@ -7,27 +7,27 @@ let i = 0;
 //var body = document.querySelector('body')
 //var keys = ''
 document.body.addEventListener('keydown', function(e) {
-  var keys = parseInt(e.detail || e.which)
+  var keys = parseInt(e.detail || e.which);
 
   //console.log(e.detail)
   //console.log(e.location)
   //console.log(e.which)
 
   if (keys === code[i]) {
-    index ++
+    index ++;
 
-    if (i === code.length - 1) {
-      alert("WOO HOO! You did it!")
+    if (i === code.length) {
+      alert("WOO HOO! You did it!");
 
-      i = 0
+      i = 0;
       //keys = ''
     }
   }
 
   else {
-    i = 0
+    i = 0;
     //keys = ''
   }
-})
+});
 }
 //init();
